@@ -736,6 +736,21 @@ p {
     display: flex;
   }
 }
+@media (max-width: 768px) {
+  .content h1 {
+    padding-right: 0 !important;
+    font-size: 1.8rem;
+    text-align: center;
+    color: white !important;
+    display: block !important;
+    visibility: visible !important;
+  }
+
+  .content {
+    text-align: center !important;
+  }
+}
+
 body{
   
 } */
