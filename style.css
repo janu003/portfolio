@@ -82,9 +82,30 @@ body, html {
   animation: fadeIn 2s ease-in;
 }
  
-.content h1{
-  padding-right: 250px;
+.content h1 {
+  padding-right: 0;
+  font-size: 1.8rem;
+  text-align: center;
 }
+@media (max-width: 600px) {
+  .content h1 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 1024px) {
+  .content h1 {
+    padding-right: 0;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .content h1 {
+    font-size: 1.5rem;
+  }
+}
+
 
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(-30px); }
